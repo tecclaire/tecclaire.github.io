@@ -44,10 +44,38 @@ However, the major errors in the dataset which can interfere with our analysis a
 
 ![_config.yml]({{ site.baseurl }}/images/project1-images/1.png)
 
+
 We first took a look at stations with the busiest traffic to gain a general view of our top picks. It unsurprisingly contains the NYC hotspots like Grand Central, Penn Station and Port Authority Station, but also includes stations hot for transferrings between lines, such as 34 St, Union Square and Fulton St.
 
- _config.yml file in the root of your repository (shown below).
+![_config.yml]({{ site.baseurl }}/images/project1-images/2.png)
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Then we graphed the traffic for the top 10 stations from morning and afternoon separated by 12 PM. As the traffic of the busiest station in the morning period roughly aligns with that of the least busiest traffic in afternoon, the street team should surely go out in an afternoon period.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+![_config.yml]({{ site.baseurl }}/images/project1-images/3.png)
+
+We had an intuition that subways would be less busy on the weekends, but we wanted to use our data to confirm this. The graph shows the top 15 stations by volume and their ridership by day of the week. The number of passengers substantially drops offs on the weekend and displays a rather constant pattern over weekdays.
+
+With a primary list of the busiest stations, we would like to introduce some demographic information for us to better choose the locations for the street team. Once we decide on the stations, we would look more into the heatmap of the station’s traffic and define the best time period in the afternoon and the weekday for WTWY.
+
+![_config.yml]({{ site.baseurl }}/images/project1-images/4.png)
+
+To look at where the target groups might work at, we mapped the locations of women owned business in Manhattan. Around the Midtown area, high density clusters appear near Penn Station, 34th Street Herald Square, Grand Central, and the 28th Street station at 7th avenue. Workers from the above locations could be highly possible to use the stations from our top 10 list, such as Grand Central and 34th Street Herald Square.
+
+![_config.yml]({{ site.baseurl }}/images/project1-images/5.png)
+
+Going towards lower Manhattan, women-owned business clusters densely near the Fulton Street and Wall Street stations.
+
+![_config.yml]({{ site.baseurl }}/images/project1-images/6.png)
+
+The top 15 neighborhoods by median income also confirms the world trade center area to be ideal to meet our target groups.
+
+Therefore, combining our EDA and demographic information, we select the following four stations: Grand Central, 34th Street Herald Square, Fulton Street, World Trade Center.
+
+![_config.yml]({{ site.baseurl }}/images/project1-images/7.png)
+
+Listing the heatmap (example as above) for each station, we believe the following location and schedule to benefit the WTWY street teams to maximize their outreach.
+
+Grand Central Station: 4pm to 8pm on Thursdays.
+34th Street Herald Square: 4pm to 8pm on Thursdays.
+Fulton Street: 4pm to 8pm on Thursdays.
+World Trade Center: 4pm to 8pm on Fridays.
