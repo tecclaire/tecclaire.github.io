@@ -42,6 +42,10 @@ However, the major errors in the dataset which can interfere with our analysis a
 
 ## Analysis:
 
+![_config.yml]({{ site.baseurl }}/images/project1-images/1.png)
+
+We first took a look at stations with the busiest traffic to gain a general view of our top picks. It unsurprisingly contains the NYC hotspots like Grand Central, Penn Station and Port Authority Station, but also includes stations hot for transferrings between lines, such as 34 St, Union Square and Fulton St.
+
  _config.yml file in the root of your repository (shown below).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
