@@ -29,12 +29,18 @@ We decided to use MTA turnstile data to find station with heavy traffic and defi
 
 ## Assumptions:
 We have held the following assumptions to guide our future analysis:
-    1. The target group of WTWY’s outreach by NYC subway stations are ideally women workers in technology industry, but can be broadened to people who are supportive on this concept and interested in the Gala itself. We would like to reach to a crowd as large as possible to meet women workers, technology industry participants, and also any passengers who show interests.
-    2. Women business owners can become potential donors for the Gala supporting women leadership, and would be more likely to hire more women employees. Therefore, we decide to look at the locations of women-owned business in order to seize such demographic.
-    3. The total traffic at one turnstile is the combination of entries and exits.
-    4. Afternoon could be a better time frame for the street teams to outreach and collect emails, since workers don’t like to be stopped at the morning rush period, bearing the risk of being late.
-    5. We use MTA data dated at Feb 25 - Apr 6, 2018. Workers from our target group tend to commute via subway with a constant travel pattern over their period of employment at the current company. A more recent dataset, rather than data from early summer in the past years, can reflect the traffic of working population more accurately.
+1. The target group of WTWY’s outreach by NYC subway stations are ideally women workers in technology industry, but can be broadened to people who are supportive on this concept and interested in the Gala itself. We would like to reach to a crowd as large as possible to meet women workers, technology industry participants, and also any passengers who show interests.
+2. Women business owners can become potential donors for the Gala supporting women leadership, and would be more likely to hire more women employees. Therefore, we decide to look at the locations of women-owned business in order to seize such demographic.
+3. The total traffic at one turnstile is the combination of entries and exits.
+4. Afternoon could be a better time frame for the street teams to outreach and collect emails, since workers don’t like to be stopped at the morning rush period, bearing the risk of being late.
+5. We use MTA data dated at Feb 25 - Apr 6, 2018. Workers from our target group tend to commute via subway with a constant travel pattern over their period of employment at the current company. A more recent dataset, rather than data from early summer in the past years, can reflect the traffic of working population more accurately.
 
+## Data Information:
+For this project, we use MTA turnstile data ranges from Feb 25 - Apr 6 this year with over 1 million rows. It records cumulative entries and exits of each turnstile 6 times day. This sizable dataset over a long duration of time allows us to find a reliable pattern over the subway traffic.
+
+However, the major errors in the dataset which can interfere with our analysis are unreasonable large cumulative number, uneven time block for timestamps, counter resets on the cumulative numbers. Therefore, we performed some data cleaning to conceal effects of the mentioned errors over the total traffic counts. We only keep data for a turnstile whose number of entries/exits is between 0 and 60 per minute.
+
+## Analysis:
 
  _config.yml file in the root of your repository (shown below).
 
