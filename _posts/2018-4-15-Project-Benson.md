@@ -47,7 +47,7 @@ However, the major errors in the dataset which can interfere with our analysis a
 
 We first took a look at stations with the busiest traffic to gain a general view of our top picks. It unsurprisingly contains the NYC hotspots like Grand Central, Penn Station and Port Authority Station, but also includes stations hot for transferrings between lines, such as 34 St, Union Square and Fulton St.
 
-![_config.yml]({{ site.baseurl }}/images/project1-images/2.png)
+![_config.yml]({{ site.baseurl }}/images/project1-images/2.png = 500x)
 
 Then we graphed the traffic for the top 10 stations from morning and afternoon separated by 12 PM. As the traffic of the busiest station in the morning period roughly aligns with that of the least busiest traffic in afternoon, the street team should surely go out in an afternoon period.
 
