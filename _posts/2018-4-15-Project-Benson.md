@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MTA Turnstiles Analysis
+title: Project Benson: MTA Turnstiles Analysis
 ---
 
 In my first week with Metis, I worked with some awesome teammates to conduct Project Benson, a data analysis over MTA turnstile Data. The project incorporates Python modules such as Pandas and Seaborn to perform EDA and data visualization to solve a “real world” question.
