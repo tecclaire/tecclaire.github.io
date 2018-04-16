@@ -9,7 +9,9 @@ In my first week with Metis, I worked with some awesome teammates to conduct Pro
 We received an inquiry from the organization WomenTechWomenYes(WTWY) with the following information:
 
 _"WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.  
+
 To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.  
+
 Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause."_
 
 To meet WTWY’s request, we would utilize data and analytics to optimize the effectiveness of the street team at subway stations to spread awareness and attract attendants to the WTWY Annual Gala. The goal of our analysis is to allocate the best subway stations to collect email signatures and reach out to target group efficiently.
@@ -76,4 +78,16 @@ Listing the heatmap (example as above) for each station, we believe the followin
 Grand Central Station: 4pm to 8pm on Thursdays.  
 34th Street Herald Square: 4pm to 8pm on Thursdays.  
 Fulton Street: 4pm to 8pm on Thursdays.  
-World Trade Center: 4pm to 8pm on Fridays.  
+World Trade Center: 4pm to 8pm on Fridays.
+
+## Further Steps:
+To further improve the recommendations, there are more factors we can look deeply into.
+1. More NYC demographic data about the tech industry:
+    We can map out the location of tech companies, which are directly associated with our target group, and see if they overlap with any top subway stations.
+2. MTA turnstile data in a smaller time frame:
+    The general busiest time period 4pm - 8pm is still too broad. Since many people's workday ends at 5pm or 6pm, maybe a particular hour among this 4 hour period is busier than the others? It would be more helpful if we can have the turnstile data every hour.
+3. Specify turnstiles:
+    Although we pick out the ideal stations for large foot traffic, we can become more specific and find peak activity ares grouped by control centers in a station. For instance, Grand Central has different entrances over different city blocks. It would benefit the WTWY street team to know which entrances have the most passengers.
+
+---
+_To view the presentation of this project, please click [here](https://docs.google.com/presentation/d/1YqWURLT4SYuVXCmxReLBPPbprOBG-669PCY3UDN93CA/edit?usp=sharing)._
