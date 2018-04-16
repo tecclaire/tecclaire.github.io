@@ -8,9 +8,9 @@ In my first week with Metis, I worked with some awesome teammates to conduct Pro
 ## Question:
 We received an inquiry from the organization WomenTechWomenYes(WTWY) with the following information:
 
->_"WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach._
-_To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala._
-_Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause."_
+>_"WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.  
+To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.  
+Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause."_
 
 To meet WTWY’s request, we would utilize data and analytics to optimize the effectiveness of the street team at subway stations to spread awareness and attract attendants to the WTWY Annual Gala. The goal of our analysis is to allocate the best subway stations to collect email signatures and reach out to target group efficiently.
 
@@ -45,7 +45,7 @@ However, the major errors in the dataset which can interfere with our analysis a
 
 We first took a look at stations with the busiest traffic to gain a general view of our top picks. It unsurprisingly contains the NYC hotspots like Grand Central, Penn Station and Port Authority Station, but also includes stations hot for transferrings between lines, such as 34 St, Union Square and Fulton St.
 
-![]({{ site.baseurl }}/images/project1-images/2.png | width = 500)
+![_config.yml]({{ site.baseurl }}/images/project1-images/2.png | width = 500)
 
 Then we graphed the traffic for the top 10 stations from morning and afternoon separated by 12 PM. As the traffic of the busiest station in the morning period roughly aligns with that of the least busiest traffic in afternoon, the street team should surely go out in an afternoon period.
 
