@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project Benson: A Data Analysis on NYC MTA Turnstiles
+title: Project Benson 2
 ---
 # Project Benson
 ## A Data Analysis on NYC MTA Turnstiles
