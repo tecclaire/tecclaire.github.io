@@ -8,11 +8,11 @@ In my first week with Metis, I worked with some awesome teammates to conduct Pro
 ## Question:
 We received an inquiry from the organization WomenTechWomenYes(WTWY) with the following information:
 
-_"WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach._
+>_"WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach._
 
-_To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala._
+>_To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala._
 
-_Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause."_
+>_Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause."_
 
 To meet WTWY’s request, we would utilize data and analytics to optimize the effectiveness of the street team at subway stations to spread awareness and attract attendants to the WTWY Annual Gala. The goal of our analysis is to allocate the best subway stations to collect email signatures and reach out to target group efficiently.
 
@@ -57,21 +57,21 @@ We had an intuition that subways would be less busy on the weekends, but we want
 
 With a primary list of the busiest stations, we would like to introduce some demographic information for us to better choose the locations for the street team. Once we decide on the stations, we would look more into the heatmap of the station’s traffic and define the best time period in the afternoon and the weekday for WTWY.
 
-![_config.yml]({{ site.baseurl }}/images/project1-images/4.png)
+![_config.yml]({{ site.baseurl }}/images/project1-images/5.png)
 
 To look at where the target groups might work at, we mapped the locations of women owned business in Manhattan. Around the Midtown area, high density clusters appear near Penn Station, 34th Street Herald Square, Grand Central, and the 28th Street station at 7th avenue. Workers from the above locations could be highly possible to use the stations from our top 10 list, such as Grand Central and 34th Street Herald Square.
 
-![_config.yml]({{ site.baseurl }}/images/project1-images/5.png)
+![_config.yml]({{ site.baseurl }}/images/project1-images/6.png)
 
 Going towards lower Manhattan, women-owned business clusters densely near the Fulton Street and Wall Street stations.
 
-![_config.yml]({{ site.baseurl }}/images/project1-images/6.png)
+![_config.yml]({{ site.baseurl }}/images/project1-images/7.png)
 
 The top 15 neighborhoods by median income also confirms the world trade center area to be ideal to meet our target groups.
 
 Therefore, combining our EDA and demographic information, we select the following four stations: Grand Central, 34th Street Herald Square, Fulton Street, World Trade Center.
 
-![_config.yml]({{ site.baseurl }}/images/project1-images/7.png)
+![_config.yml]({{ site.baseurl }}/images/project1-images/4.png)
 
 Listing the heatmap (example as above) for each station, we believe the following location and schedule to benefit the WTWY street teams to maximize their outreach.
 
