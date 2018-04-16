@@ -2,6 +2,8 @@
 layout: post
 title: Project Benson: A Data Analysis on NYC MTA Turnstiles
 ---
+# Project Benson
+## A Data Analysis on NYC MTA Turnstiles
 
 In my first week with Metis, I worked with some awesome teammates to conduct Project Benson, a data analysis over MTA turnstile Data. The project incorporates Python modules such as Pandas and Seaborn to perform EDA and data visualization to solve a “real world” question.
 
@@ -75,7 +77,7 @@ Therefore, combining our EDA and demographic information, we select the followin
 
 Listing the heatmap (example as above) for each station, we believe the following location and schedule to benefit the WTWY street teams to maximize their outreach.
 
-Grand Central Station: 4pm to 8pm on Thursdays.
-34th Street Herald Square: 4pm to 8pm on Thursdays.
-Fulton Street: 4pm to 8pm on Thursdays.
-World Trade Center: 4pm to 8pm on Fridays.
+Grand Central Station: 4pm to 8pm on Thursdays.  
+34th Street Herald Square: 4pm to 8pm on Thursdays.  
+Fulton Street: 4pm to 8pm on Thursdays.  
+World Trade Center: 4pm to 8pm on Fridays.  
