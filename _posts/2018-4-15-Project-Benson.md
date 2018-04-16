@@ -82,11 +82,11 @@ World Trade Center: 4pm to 8pm on Fridays.
 
 ## Further Steps:
 To further improve the recommendations, there are more factors we can look deeply into.
-1. More NYC demographic data about the tech industry:
+1. More NYC demographic data about the tech industry:  
     We can map out the location of tech companies, which are directly associated with our target group, and see if they overlap with any top subway stations.
-2. MTA turnstile data in a smaller time frame:
+2. MTA turnstile data in a smaller time frame:  
     The general busiest time period 4pm - 8pm is still too broad. Since many people's workday ends at 5pm or 6pm, maybe a particular hour among this 4 hour period is busier than the others? It would be more helpful if we can have the turnstile data every hour.
-3. Specify turnstiles:
+3. Specify turnstiles:  
     Although we pick out the ideal stations for large foot traffic, we can become more specific and find peak activity ares grouped by control centers in a station. For instance, Grand Central has different entrances over different city blocks. It would benefit the WTWY street team to know which entrances have the most passengers.
 
 ---
