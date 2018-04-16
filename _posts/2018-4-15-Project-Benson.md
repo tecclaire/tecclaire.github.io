@@ -8,11 +8,11 @@ In my first week with Metis, I worked with some awesome teammates to conduct Pro
 ## Question:
 We received an inquiry from the organization WomenTechWomenYes(WTWY) with the following information:
 
-*"WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.    
+*"WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.*
 
-To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.    
+*To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.*
 
-Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause."*  
+*Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause."*
 
 To meet WTWY’s request, we would utilize data and analytics to optimize the effectiveness of the street team at subway stations to spread awareness and attract attendants to the WTWY Annual Gala. The goal of our analysis is to allocate the best subway stations to collect email signatures and reach out to target group efficiently.
 
