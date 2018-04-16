@@ -90,4 +90,5 @@ To further improve the recommendations, there are more factors we can look deepl
     Although we pick out the ideal stations for large foot traffic, we can become more specific and find peak activity ares grouped by control centers in a station. For instance, Grand Central has different entrances over different city blocks. It would benefit the WTWY street team to know which entrances have the most passengers.
 
 ---
+
 _To view the presentation of this project, please click [here](https://docs.google.com/presentation/d/1YqWURLT4SYuVXCmxReLBPPbprOBG-669PCY3UDN93CA/edit?usp=sharing)._
