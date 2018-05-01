@@ -21,22 +21,22 @@ My first step is to plot ratings against other indepent variables using Seaborn.
 
 Next, I would like to use Patsy to perform a linear regression analysis over the variables. To take consideration of the skewed images, I ran two linear regressions, one with the original variables and one with logged variables.
 
-![_config.yml]({{ site.baseurl }}/images/project1-images/patsy.png)
+![_config.yml]({{ site.baseurl }}/images/project2-images/patsy.png)
 
 For Rating ~ all variables, our R^2 is very high at 0.91. I took out all the author categories and ran patsy again, and R^2 drops to be around 0.5. Author definitely plays an important role in the ratings here. However, our modeling can't stop here. I ran a train and test over this model and our data is definitely overfit, with R^2 drops to 0.25. so I use Ridge and Lasso for regularization and hope they can help me pick the most efficient coefficients. 
 
-![_config.yml]({{ site.baseurl }}/images/project1-images/ridge.png)
+![_config.yml]({{ site.baseurl }}/images/project2-images/ridge.png)
 
 With ridge, our R^2 climbs to be 0.37. 
 
-![_config.yml]({{ site.baseurl }}/images/project1-images/lasso.png)
+![_config.yml]({{ site.baseurl }}/images/project2-images/lasso.png)
 
 The lasso R^2 is 0.31, which is still an improvement. The linear model using the given features can only explain a moderate portion of the  factors for rating, which seems reasonable. It's so hard to "explain" and "predict" creative products...
 
 ## Conclusions:
 I let lasso pick the leading coefficients for Rating ~ all variables as in the table below.
 
-| Postive Coefs  | Negative Coeffs  |
+| Postive Coefs |  | Negative Coeffs | |
 | --- |---| --- | --- |
 | NPages | 0.074 | School | -0.039|
 | Sarah J. Maas | 0.031 | Dan Brown | -0.036 |
